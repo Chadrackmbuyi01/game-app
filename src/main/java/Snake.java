@@ -8,7 +8,7 @@ public class Snake {
     public Snake(Cell initPos){
         head = initPos;
         snakePartList.add(head);
-        head.getCellType(CellType.SNAKE_NODE);
+        head.setCellType(CellType.SNAKE_NODE);
     }
 
     public void grow(){
